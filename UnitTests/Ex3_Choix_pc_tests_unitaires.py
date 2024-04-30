@@ -13,7 +13,7 @@ from classes import Ex3_Choix_pc as Cpc
 class Test_estimer(unittest.TestCase):
 
     def test_estimer_sans_processeur(self):
-        # Instanciez la classe Choix
+        # Instanciez la classe appChoix
 
         # Testez que self.choix_processeur =  "Choisis ton processeur    "
 

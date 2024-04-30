@@ -11,11 +11,11 @@ class Etudiant:
 class Groupe:
     
     def __init__(self, ls_etudiants):
-        self.ls_etudiants = ls_etudiants
+        self._ls_etudiants = ls_etudiants
         
     @property
     def ls_etudiants(self):
-        return self.ls_etudiants
+        return self._ls_etudiants
     
       
     def ajouter_etudiant(self, etudiant):
